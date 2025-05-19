@@ -41,13 +41,18 @@ accelerate config default
 
 - Place **MLSD outlines** in:  
   `datasets/AllZurich_outline_MLSD_Groundtruth`
+  
+    https://drive.google.com/drive/folders/1ipaukz56KNJtxnta5o_Uo62fRDqTa4HP
 
 - Place **target images** in:  
   `datasets/PNGAllzurich_tif_tiles_output`
+  
+    https://drive.google.com/drive/folders/1rLzwuHvf6nq76IZSi-V9dxi__3fEYuqV"
 
 - Place **captions** in:  
   `datasets/captions/`
 
+    https://drive.google.com/drive/folders/1dTIPY90IeHd-WTzBObZxzWa5uzjWPH0V
 ---
 
 ### Option 2: Script Download
