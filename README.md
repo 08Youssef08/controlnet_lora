@@ -86,7 +86,8 @@ This creates a dictionary mapping between hints, targets, and captions.
 ## 🚀 Execute the Training Command
 
 ```bash
-accelerate launch train_control_lora.py   --pretrained_model_name_or_path="path_to_realistic_vision"   --output_dir="control-lora-model"   --conditioning_image_column="hint"   --image_column="jpg"   --caption_column="txt"   --resolution=512   --learning_rate=1e-4   --train_batch_size=4   --num_train_epochs=4   --max_train_steps=100000   --tracker_project_name="control-lora"   --checkpointing_steps=5000   --validation_steps=5000   --report_to wandb   --use_lora   --lora_r=32   --lora_bias="all"   --custom_dataset="custom.MyDataset"
+accelerate launch train_control_lora.py   --pretrained_model_name_or_path="stablediffusionapi/realistic-vision-v51"   --output_dir="control-lora-model"   --conditioning_image_column="hint"   --image_column="jpg"   --caption_column="txt"   --resolution=512   --learning_rate=1e-4   --train_batch_size=4   --num_train_epochs=4   --max_train_steps=30000   --tracker_project_name="control-lora"   --checkpointing_steps=5000   --validation_steps=5000   --report_to wandb   --use_lora   --lora_r=32   --lora_bias="all"   --custom_dataset="custom_datasets.custom.MyDataset"
+
 ```
 
 ---
